@@ -8,17 +8,22 @@
                 2. Then do the same for heading 2 (exact same style)
                 3. Then move both to the <style> element in <head> for writing internal CSS 
                 4. Just h1 --> element selector
-                5. Then h1, h2 --> group selector
+                5. Then h2, h1 --> group selector
                 6. Then change other things in body to show other properties - refresh after each new property
                 7. Example of id --> intro paragraph
                 8. Example of class --> <div> for your albums (having an IMAGE and the name of the album in a CAPTION)
+                   -> <div> is a block-level element
                    - descendant (by space)
                 9. Example of <span> (inline container for phrasing content, which does not inherently represent 
                 anything; it can be used to group elements for styling purposes—using class or id attributes):
-                   - <span class="member">
-                   - <span id="leader">
+                   - <span class="member"> (first make them all members)
+                   - <span id="leader"> (then identify the leader)
                    Illustrating the difference between class vs. id (multiple vs. one per HTML document)
                    Assuming each band will have one leader, there will be one leader per fansite. 
+                10. External CSS: <link rel="stylesheet" href="mystyle.css">
+                - With an external style sheet, you can change the look of an entire website by changing just one file!
+                - An internal style sheet may be used if one single HTML page has a unique style.
+                - An inline style may be used to apply a unique style for a single element.
                 */
             h1, h2 {
                 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
